@@ -5,8 +5,8 @@
 ### How to use:
   1. Add code from `backends.py` to your project.
   2. Create a custom backend for your model 
-  by inheriting DynamicUsernameBackend
-  and spicifying `USERNAME_FIELD`:
+  by inheriting `DynamicUsernameBackend`
+  and specifying `USERNAME_FIELD`:
 ```py
 from crm.backends import DynamicUsernameBackend
 from .models import Client
