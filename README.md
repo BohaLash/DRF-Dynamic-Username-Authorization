@@ -17,7 +17,7 @@ class ClientBackend(DynamicUsernameBackend):
 
 ```
   2. Edit `settings.py` and add your custom backend:
-  ```py
+```py
 AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',
     'client.backends.ClientBackend',
